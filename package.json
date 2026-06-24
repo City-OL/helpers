@@ -1,0 +1,24 @@
+{
+  "name": "@city-ol/helpers",
+  "version": "1.0.0",
+  "description": "Orienteering helper functions",
+  "homepage": "https://github.com/City-OL/helpers#readme",
+  "bugs": {
+    "url": "https://github.com/City-OL/helpers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/City-OL/helpers.git"
+  },
+  "license": "MIT",
+  "author": "Tim Mutkala",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}
