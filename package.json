@@ -12,14 +12,25 @@
   },
   "license": "MIT",
   "author": "Tim Mutkala",
-  "type": "commonjs",
+  "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "devDependencies": {
+    "@city-ol/types": "^1.0.0",
+    "@types/geojson": "^7946.0.16",
     "@types/node": "^26.0.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@turf/along": "^7.3.5",
+    "@turf/bearing": "^7.3.5",
+    "@turf/circle": "^7.3.5",
+    "@turf/destination": "^7.3.5",
+    "@turf/helpers": "^7.3.5",
+    "@turf/invariant": "^7.3.5"
   }
 }
